@@ -26,9 +26,13 @@ public class NumberWizrd : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			print ("Upper Arrow was pressed");
+			min = guess; //If guess is above 500, we move min to that level
+			guess = (min + max) / 2;
+			print ("Is number above or below " + guess);
 		} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
-			print ("Down Arrow was pressed");
+			max = guess; //If guess is below 500, we move max to that level
+			guess = (max + min) / 2;
+			print ("Is number above or below " + guess);
 		} else if (Input.GetKeyDown (KeyCode.Return)) {
 			print ("You Won!!!");
 		}
