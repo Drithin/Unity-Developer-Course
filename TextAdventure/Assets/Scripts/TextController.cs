@@ -16,12 +16,10 @@ public class TextController : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetKeyDown(KeyCode.Space)) {
-			text.text = "Hey Hi, Hello ahdnvbfhdeirigihdsneighb jihk ndhdhdeyr"+
-				        "ghghfdddk bgherrryhdsdf ghfkritgbbbnk  Hey Hi, Hello "+ 
-				        "ahdnvbfhdeirigihdsneighb jihk ndhdhdeyr ghghfdddk bgherrryhdsdf"+
-				        "ghfkritgbbbnk  Hey Hi, Hello ahdnvbfhdeirigihdsneighb jihk ndhdhdeyr"+
-				         "ghghfdddk bgherrryhdsdf ghfkritgbbbnk";
-
+			text.text = "You're in a prison cell and you want to escape. " +
+			"There are some dirty sheets on bed, a mirron on the wall " +
+			"and the door is locked from outside. \n \n" +
+			" Press S to view Sheets, M to view Mirror and L to view Lock";
 		}
 	}
 }
