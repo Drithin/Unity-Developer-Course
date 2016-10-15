@@ -16,7 +16,12 @@ public class TextController : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetKeyDown(KeyCode.Space)) {
-				text.text = "Space Key Pressed";
+			text.text = "Hey Hi, Hello ahdnvbfhdeirigihdsneighb jihk ndhdhdeyr"+
+				        "ghghfdddk bgherrryhdsdf ghfkritgbbbnk  Hey Hi, Hello "+ 
+				        "ahdnvbfhdeirigihdsneighb jihk ndhdhdeyr ghghfdddk bgherrryhdsdf"+
+				        "ghfkritgbbbnk  Hey Hi, Hello ahdnvbfhdeirigihdsneighb jihk ndhdhdeyr"+
+				         "ghghfdddk bgherrryhdsdf ghfkritgbbbnk";
+
 		}
 	}
 }
