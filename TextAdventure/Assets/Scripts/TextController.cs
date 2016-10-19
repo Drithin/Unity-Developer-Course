@@ -53,9 +53,13 @@ public class TextController : MonoBehaviour {
 				"There are some dirty sheets on bed, a mirron on the wall " +
 				"and the door is locked from outside. \n \n" +
 				" Press S to view Sheets, M to view Mirror and L to view Lock";
-		if (Input.GetKeyDown(KeyCode.S)) {
+		if (Input.GetKeyDown (KeyCode.S)) {
 			myState = States.sheets_0;
-	}
+		} else if (Input.GetKeyDown (KeyCode.M)) {
+			myState = States.mirror;
+		} else if (Input.GetKeyDown (KeyCode.L)) {
+			myState = States.lock_0;
+		}
 }
 	void state_sheets_0(){
 
@@ -92,7 +96,7 @@ public class TextController : MonoBehaviour {
 	}
 
 	void state_lock_1(){
-		"You carefully put the mirror through the bars, and turn it round " +
+		text.text = "You carefully put the mirror through the bars, and turn it round " +
 		"so you can see the lock. You can just make out fingerprints around " +
 		"the buttons You press the dirty buttons, and hear a click \n\n" +
 		"Press O to Open or R to Return to your cell";
@@ -129,7 +133,7 @@ public class TextController : MonoBehaviour {
 		text.text = "You're FREE!\n\n" + "Press P to Play Again";
 
 		if (Input.GetKeyDown (KeyCode.P)) {
-			myState = States.cell ();
+			myState = States.cell;
 		}
 	}
 }
