@@ -1,0 +1,13 @@
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/UnityEngine.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/UnityEditor.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Mono.Cecil.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Unity.DataContract.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/DrithnChakrav/Unity Developer Course/TextAdventure/Temp/bin/Debug/Mono.Cecil.Mdb.dll
