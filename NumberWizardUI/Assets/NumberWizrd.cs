@@ -7,7 +7,9 @@ public class NumberWizrd : MonoBehaviour {
 	int max; //wide scope
 	int min; // available to instance
 	int guess; 
-	public int maxGuessesAllowed=3;
+	public int maxGuessesAllowed=3; // making this instantaneous variable public,
+	// we see 'maxGuessesAllowed' option on the game object named NumberWizard which 
+	// got a script component added NumberWizard.cs
 
 	public Text foo;
 
